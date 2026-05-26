@@ -1,0 +1,21 @@
+{
+  "name": "odoo18-rest-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Node.js REST service gateway for Odoo 18 using odoo-node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "odoo-node": "^0.2.0"
+  }
+}
